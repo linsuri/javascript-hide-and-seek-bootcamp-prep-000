@@ -7,15 +7,14 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
+  const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li');
   for (let i = 0; i < lis.length; i++) {
-    lis[i].innerHTML = (i + 1).toString()
+    lis[i].innerHTML = (i + 1).toString();
   }
 }
 
 function deepestChild() {
-  const lis = document.getElementById('grand-node').querySelectorAll('div#grand-node li')
-  for (let i = 0; i < lis.length; i++) {
-    lis[i].innerHTML = (i + 1).toString()
+  const lis = document.getElementById('grand-node').querySelectorAll('div#grand-node li');
+  return lis[];
   }
 }
